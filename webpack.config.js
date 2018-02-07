@@ -31,7 +31,7 @@ module.exports = {
   plugins: [
     new ExtractTextPlugin("static/css/globals.css"),
     new CopyWebpackPlugin([
-          { from: 'src/index.html' },
+          { from: 'index.html' },
           { from: 'src/static/data'  , to: 'static/data'},
           { from: 'src/static/images', to: 'static/images'},
       ])
