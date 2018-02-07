@@ -78,7 +78,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin("static/css/globals.css"),
+    new ExtractTextPlugin("dist/static/css/globals.css"),
     new CopyWebpackPlugin([
           { from: 'src/index.html' },
           { from: 'src/static/data'  , to: 'static/data'},
