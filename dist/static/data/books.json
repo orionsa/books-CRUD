@@ -1,0 +1,22 @@
+[
+    {
+        "author": "j.r.r tolkien",
+        "date": "21/10/1954",
+        "title": "the lord of the rings"
+    },
+    {
+        "author": "miguel de cervantes",
+        "date": "01/01/1605",
+        "title": "don quixote"
+    },
+    {
+        "author": "j.k. rowling",
+        "date": "04/09/2000",
+        "title": "harry potter"
+    },
+    {
+        "author": "charles dickens",
+        "date": "21/03/1859",
+        "title": "a tale of two cities"
+    }
+]
