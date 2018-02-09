@@ -22,6 +22,7 @@ body{
     align-items: center;
     background: mintcream;
     background-image: url('https://orionsa.github.io/books-CRUD/dist/static/images/inner.jpg');
+    background-size: cover;
 }
 *{
     margin: 0;
@@ -169,6 +170,7 @@ body{
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
+    font-size: 30px;
 }
 .modal-header{
     border: none;
