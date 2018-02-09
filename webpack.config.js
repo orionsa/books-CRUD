@@ -59,15 +59,15 @@ module.exports = {
   module: {
     rules: [
       { test:/\.js$/, use: 'babel-loader' , exclude: /node_modules/ },
-      { test:/\.scss$/, use: ['style-loader','css-loader','sass-loader'] },
-     // { test:/\.css$/, use: ['style-loader','css-loader'] },
-      {
-        test: /\.css$/,
-        use: ExtractTextPlugin.extract({
-          fallback: "style-loader",
-          use: "css-loader"
-        })
-      },
+      // { test:/\.scss$/, use: ['style-loader','css-loader','sass-loader'] },
+      { test:/\.css$/, use: ['style-loader','css-loader'] },
+      // {
+      //   test: /\.css$/,
+      //   use: ExtractTextPlugin.extract({
+      //     fallback: "style-loader",
+      //     use: "css-loader"
+      //   })
+      // },
       {
         test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
         loader: 'url-loader',
@@ -78,7 +78,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin("dist/static/css/globals.css"),
+    //new ExtractTextPlugin("/static/css/globals.css"),
     new CopyWebpackPlugin([
           { from: 'src/index.html' },
           { from: 'src/static/data'  , to: 'static/data'},
