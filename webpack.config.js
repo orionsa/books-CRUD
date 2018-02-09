@@ -33,7 +33,7 @@ module.exports = {
     new CopyWebpackPlugin([
           { from: 'src/index.html' },
           { from: 'src/static/data'  , to: 'static/data'},
-          { from: 'src/static/images', to: 'static/images'},
+          { from: 'src/static/images' , to: 'static/images'},
       ])
   ],
   devServer: {

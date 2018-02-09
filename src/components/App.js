@@ -13,7 +13,7 @@ export default class App extends Component {
     }
     
     componentWillMount(){ //Request data from local folder, simulates request from server
-        fetch('/static/data/books.json')
+        fetch('static/data/books.json')
         .then( response => {
             if(response.ok) {
                 return response.json();
