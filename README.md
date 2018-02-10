@@ -1,3 +1,3 @@
 # books-CRUD
 
-To run on github pages add '/dist' to the projects github pages URL.
+To run on github pages https://orionsa.github.io/books-CRUD/dist
